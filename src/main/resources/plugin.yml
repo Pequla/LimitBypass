@@ -1,0 +1,14 @@
+name: LimitBypass
+version: ${project.version}
+main: com.pequla.limitbypass.LimitBypass
+api-version: 1.16
+prefix: LimitBypass
+load: STARTUP
+authors: [ Pequla ]
+website: https://pequla.com/
+loadbefore: [ LuckPerms, EmperorHunt ]
+description: Plugin that enables players to bypass the server player limit
+permissions:
+  limitbypass.bypass:
+    description: Allows the player to bypass the server limit
+
